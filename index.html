@@ -7,20 +7,46 @@
   <meta charset="utf-8">
   <style>
     body {
-      padding: 25px;
       background-color: white;
       color: black;
-      font-size: 25px;
     }
 
     .dark-mode {
       background-color: black;
       color: white;
     }
+    table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Zebra striping */
+        /*tr:nth-of-type(odd) {background: #eee;}*/
+        th {
+            background: #333;
+            color: white;
+            font-weight: bold;
+        }
+
+        td,
+        th {
+            padding: 6px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
   </style>
 </head>
 
-<BODY><a name='0'></a></br>목차</br></br>1.<a href='#1'>총론</a></br></br>2.<a href='#2'>신체운동･건강</a></br></br>3.<a
+<BODY>
+  <button onclick="myFunction()">다크모드</button>
+  </br>
+  <script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>
+  <a name='0'></a></br>목차</br></br>1.<a href='#1'>총론</a></br></br>2.<a href='#2'>신체운동･건강</a></br></br>3.<a
     href='#3'>의사소통</a></br></br>4.<a href='#4'>사회관계</a></br></br>5.<a href='#5'>예술경험</a></br></br>6.<a
     href='#6'>자연탐구</a></br></br></SPAN></P><a href='#0'>목차로 이동</a><a name='1'></a>
   <h2>1.누리과정 총론</h2>
